@@ -1,28 +1,64 @@
-header {text-align: center;}
-
 *{
     box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-h1 {color: rgb(0,86,119);
-background-color:#c4c4c4 ;
+h1 {color: rgb(37, 19, 3);
+width: 100%;
+align-items: center;
+text-align: center;
+margin: 0;
 }
 
+a{
+color: black;
+
+}
 h2 {display:flex;
 text-align: center;
+flex-wrap: wrap;
 }
 
-h3 {color: rgb(0,86,119);
-    background-color: #c4c4c4;
+h3 {color: rgb(37, 19, 3);
     width: 100%;
-
+}
+.titles{
+background-color: sandybrown;
 
 }
-h4 {color:white}
+h4 {color:rgb(37, 19, 3)}
 
-.FondoGris {background-color: #e6e6e6
+.FondoGris {background-color: rgb(229,153,88);
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(255,213,174);
+}
+.imgheader{
+
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    align-items:center;
 
 }
+
+.imgbtc{height:50px;
+width: 50px;}
+.imgh2{
+    display: flex;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    align-items:center;
+}
+
 
 .Altobr {height: 100px;
 display:flex;
@@ -40,7 +76,7 @@ display:flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    background-color: sandybrown;
+    background-color: rgb(255,213,174);
     flex-wrap: wrap;
 
 }
@@ -48,19 +84,7 @@ display:flex;
 .leyendas{display: flex;
     flex-direction: row;
     width:100%;
-    height:auto;
     text-align: center;
-}
-
-.listaexp{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 10px;
-    border: 5px solid brown;
-    height: auto;
-    width: 100%;
 }
 
 .proyectos{
@@ -78,24 +102,33 @@ text-size-adjust: auto;
 .infoexp{
     display: flex;
     flex-direction: column;
-    width:auto%;
-    min-width: 300px;
-    height: 500px;
-    border: 5px solid brown;
+    width:auto;
+    height: auto;
 
 }
 
-.lttn {font-family: 'Times New Roman';
+.projectlinks{
+display: flex;
+flex-direction: column;
+}
+
+.lttn{
+    font-weight: bold;
+
 }
 
 .ltb {font-weight: bold}
 
-.lti {font-style: italic}    
-
-.footer {background-color: rgb(0,86,119);
+.footer {background-color: sandybrown;
 text-align: center;
+flex-wrap: wrap;
 display: flex;
 position: relative;
+width: 100%;
+justify-content: space-around;
+width: 100%;
+z-index: 1;
+align-items: center;
 }
 
 .nosaltar {white-space: nowrap;}
@@ -116,13 +149,6 @@ padding: 50 px;
 
     Display: flex;
     position: relative ;
-}
-
-footer{
-    width: 100%;
-    display: flex;
-    z-index: 1;
-
 }
 
 .flexboxcontainer{
@@ -148,6 +174,10 @@ footer{
     min-height: 100px;
 }
 
+marquee{
+    color: rgb(37, 19, 3);
+    margin: 0;
+}
 
 max-height: 100px ;
 margin: 10px;   
