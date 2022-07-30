@@ -26,18 +26,20 @@ h3 {
 }
 .titles {
   background-color: sandybrown;
+  padding: 15px;
 }
 
 .titles:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   transition: ease-in-out;
   padding: 15px;
   color: white;
   background: linear-gradient(
     to right,
+    /*
     rgba(255, 0, 0, 1),
     rgba(255, 0, 180, 1),
-    rgba(0, 100, 200, 1)
+    rgba(0, 100, 200, 1)*/
   );
 }
 
@@ -131,7 +133,10 @@ nav {
 .lttn {
   font-weight: bold;
 }
-
+/*.info:hover {
+  transform: scale(1);
+  transition: ease-in-out;
+}*/
 .ltb {
   font-weight: bold;
 }
